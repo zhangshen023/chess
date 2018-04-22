@@ -285,6 +285,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="false" />
     <property name="SearchEverywhereHistoryKey" value="loginv&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;game&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/game/GameView.java&#10;lo&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;ba&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/data/image/wood/ba.gif&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;tcp&#9;PSI&#9;JAVA://sun.rmi.transport.tcp.TCPChannel" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -1015,7 +1016,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
