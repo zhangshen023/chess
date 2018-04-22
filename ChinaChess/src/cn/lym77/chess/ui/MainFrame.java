@@ -25,8 +25,6 @@ public class MainFrame extends JFrame {
         taMsg.setDisabledTextColor(Color.black);
     }
 
-    //GEN-BEGIN:initComponents
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">
     private void initComponents() {
 
         background = new JLayeredPane();
@@ -162,8 +160,7 @@ public class MainFrame extends JFrame {
                 Short.MAX_VALUE));
 
         pack();
-    }// </editor-fold>
-    //GEN-END:initComponents
+    }
 
     private void tfContentActionPerformed(ActionEvent evt) {
         send();

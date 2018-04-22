@@ -127,18 +127,24 @@ public class MsgIo {
 
     public void onReceiveErr(String data) {
         try {
-            // TODO Auto-generated method stub
             for (MsgListener msgListener : msgLsListeners) {
                 msgListener.onReceiveErr(data);
             }
         } catch (Exception e) {
-            // TODO: handle exception
         }
     }
 
     public void onReceiveMsg(Msg msg) {
         try {
             for (MsgListener msgListener : msgLsListeners) {
+                if (msg.getContent().indexOf("ONLINE:") == 0) {
+                    //‘⁄œﬂ∆Â”—
+                    if (msgListener instanceof OnlinePersonMsgListener) {
+                        ((OnlinePersonMsgListener) msgListener).onReceiveOnlinePersonMsg(msg);
+                        break;
+                    }
+
+                }
                 msgListener.onReceiveMsg(msg);
             }
         } catch (Exception e) {

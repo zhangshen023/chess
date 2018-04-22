@@ -1,6 +1,7 @@
 package cn.lym77.msg;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
@@ -33,6 +34,7 @@ public class Msg {
         this.to = encode(to);
         this.content = encode(content);
     }
+
 
     /**
      * 将消息转换为正常字符格式
@@ -91,8 +93,14 @@ public class Msg {
         socket.getOutputStream().write(msg.getBytes("utf8"));
     }
 
-    public static String read(Socket socket) throws Exception {
-        return new BufferedReader(new InputStreamReader(
-                socket.getInputStream(), "utf8")).readLine();
+    public static String read(Socket socket) {
+        try {
+            return new BufferedReader(new InputStreamReader(
+                    socket.getInputStream(), "utf8")).readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println(e);
+            return null;
+        }
     }
 }

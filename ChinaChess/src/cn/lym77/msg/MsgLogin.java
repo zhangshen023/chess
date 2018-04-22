@@ -33,9 +33,9 @@ public class MsgLogin {
 
     private Thread msgThread;
 
-    public void login() {
+    public void login(String userName) {
         if (msgThread == null) {
-            new Thread(new Client()).start();
+            new Thread(new Client(userName)).start();
         }
     }
 
@@ -44,6 +44,11 @@ public class MsgLogin {
     }
 
     class Client implements Runnable {
+        private String userName;
+        public Client(String userName){
+            super();
+            this.userName = userName;
+        }
         @Override
         public void run() {
             try {
@@ -71,7 +76,7 @@ public class MsgLogin {
         private boolean login() {
             try {
                 socket = new Socket(InetAddress.getByName(ip), port);
-                Msg.send(socket, userName + password);
+                Msg.send(socket, "LOGIN:" + userName);
                 String data = null;
                 if ((data = Msg.read(socket)) != null) {
                     if (data.contains("success")) {

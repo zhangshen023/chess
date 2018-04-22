@@ -104,13 +104,14 @@ public class Main {
 
                         @Override
                         public void loginSuccess() {
-                            loginRegisterDlg.setLogin(false);
-                            loginRegisterDlg.setVisible(false);
-                            game(1);
+                            loginRegisterDlg.setLogin(true);
+                            JOptionPane.showMessageDialog(null, "µÇÂ½³É¹¦");
+//                            loginRegisterDlg.setVisible(false);
+//                            game(1);
                         }
                     });
                     loginRegisterDlg.setLogin(true);
-                    msgLogin.login();
+                    msgLogin.login(userName);
                 }
 
                 @Override

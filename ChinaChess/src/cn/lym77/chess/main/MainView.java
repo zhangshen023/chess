@@ -3,7 +3,6 @@ package cn.lym77.chess.main;
 import cn.lym77.chess.game.Game;
 import cn.lym77.chess.game.Game.GameListener;
 import cn.lym77.chess.ui.MainFrame;
-import cn.lym77.data.MyMp3;
 import cn.lym77.msg.Msg;
 import cn.lym77.msg.MsgIo;
 import cn.lym77.msg.MsgIo.MsgListener;

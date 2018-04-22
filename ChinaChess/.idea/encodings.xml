@@ -15,5 +15,6 @@
     <file url="file://$PROJECT_DIR$/src/cn/lym77/msg/Msg.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLine.java" charset="GBK" />
   </component>
 </project>

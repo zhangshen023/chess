@@ -6,20 +6,53 @@
 
 package cn.lym77.chess.ui;
 
+import cn.lym77.msg.Msg;
+import cn.lym77.msg.MsgOnLine;
+import cn.lym77.msg.OnlinePersonMsgListener;
+
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author __USER__
  */
-public class LoginRegisterDlg extends JDialog {
+public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener, ListSelectionListener {
+    private AtomicInteger count = new AtomicInteger(0);
+
+    @Override
+    public void onReceiveOnlinePersonMsg(Msg msg) {
+        String[] onLinePersonNames = msg.getContent().split(":");
+
+        jList.setListData(onLinePersonNames);
+
+    }
+
+    @Override
+    public void onReceiveOnlinePersonErr(String data) {
+
+    }
+
+    @Override
+    public void valueChanged(ListSelectionEvent e) {
+        String toUserName = jList.getSelectedValue();
+//        System.out.println(toUserName);
+    }
+
+
     public interface LoginRegDlgListener {
 
         void login(String userName, String pwd);
 
         void regist(String userName, String pwd);
 
+    }
+
+    public interface OnLinePersons {
+        java.util.List<String> getOnLinePersons();
     }
 
     private LoginRegDlgListener listener;
@@ -31,6 +64,9 @@ public class LoginRegisterDlg extends JDialog {
                             LoginRegDlgListener listener) {
         super(parent, modal);
         this.listener = listener;
+        msgOnLine = new MsgOnLine();
+        msgOnLine.addListener(this);
+        msgOnLine.beginConnect();
         initComponents();
         addWindowListener(new WindowAdapter() {
             @Override
@@ -47,14 +83,39 @@ public class LoginRegisterDlg extends JDialog {
         userOnlinePanel = new JPanel();
         userOnlinePanel.setLayout(new FlowLayout());
         userOnlinePanel.setForeground(new Color(0, 0, 153));
-        JList<String> list = new JList<String>();
-        list.setBounds(0, 0, 100, 417);
-        String[] stringList = new String[100];
-        for (int i = 0; i < 100; i++) {
-            stringList[i] = (i + "");
-        }
-        list.setListData(stringList);
-        JScrollPane jScrollPane = new JScrollPane(list);
+
+        jList.setBounds(0, 0, 100, 417);
+
+        jList.addListSelectionListener(this);
+        jList.addMouseListener(new MouseListener() {
+
+            @Override
+            public void mouseClicked(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mousePressed(MouseEvent e) {
+                String toUserName = jList.getSelectedValue();
+                System.out.println(toUserName);
+            }
+
+            @Override
+            public void mouseReleased(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseEntered(MouseEvent e) {
+
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+
+            }
+        });
+        JScrollPane jScrollPane = new JScrollPane(jList);
         jScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane.setPreferredSize(new Dimension(100, 375));
         userOnlinePanel.add(jScrollPane);
@@ -297,16 +358,16 @@ public class LoginRegisterDlg extends JDialog {
 
     public void loginAction() {
         String sName = tfUserName.getText().trim();
-        String oName = jPasswordField.getText().trim();
+        String pwd = jPasswordField.getText().trim();
         if (sName.isEmpty() || "用户名".equals(sName)) {
             JOptionPane.showMessageDialog(null, "请输入用户名！");
             return;
         }
-        if (oName.isEmpty() || "密码".equals(oName)) {
+        if (pwd.isEmpty() || "密码".equals(pwd)) {
             JOptionPane.showMessageDialog(null, "请输入密码！");
             return;
         }
-        listener.login(sName, oName);
+        listener.login(sName, pwd);
     }
 
     private void tfOtherMousePressed(MouseEvent evt) {
@@ -365,10 +426,14 @@ public class LoginRegisterDlg extends JDialog {
         this.isLogin = isLogin;
         if (isLogin) {
             btLogin.setEnabled(false);
+            tfUserName.setEnabled(false);
+            jPasswordField.setEnabled(false);
             btReg.setEnabled(false);
         } else {
             btLogin.setEnabled(true);
             btReg.setEnabled(true);
+            tfUserName.setEnabled(true);
+            jPasswordField.setEnabled(true);
         }
     }
 
@@ -387,5 +452,9 @@ public class LoginRegisterDlg extends JDialog {
     //在线人员展示
     public JPanel userOnlinePanel;
     private JLabel jLabelOnLinePerson;
+
+    JList<String> jList = new JList<String>();
+
+    private MsgOnLine msgOnLine;
 
 }
