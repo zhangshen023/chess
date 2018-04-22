@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b2aa53-9c43-414e-a670-86aa60c5cdb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lym77/msg/OnlinePersonMsgListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$LoginRegDlgListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$LoginRegDlgListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/msg/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/msg/Msg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgIo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgIo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgLogin$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgLogin$Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/msg/MsgLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/ui/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/msg/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/msg/Msg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +22,7 @@
       <file leaf-file-name="LoginRegisterDlg.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="5">
               <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14903#0" expanded="true" />
@@ -198,9 +171,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -435,12 +407,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524305996695</updated>
-      <workItem from="1524306000098" duration="39784000" />
+      <workItem from="1524306000098" duration="40067000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1524439202940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524439202941</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1524439235442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524439235442</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交题">
+      <created>1524439251820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524439251820</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39784000" />
+    <option name="totallyTimeSpent" value="40067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -454,9 +448,9 @@
       <window_info anchor="right" id="Maven Projects" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.3674074" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.14518519" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.9437037" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980457" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.4948148" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4948148" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="3" weight="0.25" />
@@ -467,7 +461,7 @@
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="0" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.2874074" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.6666667" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -538,6 +532,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <MESSAGE value="提交题" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -971,7 +970,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="5">
           <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
           <folding>
             <element signature="e#0#14903#0" expanded="true" />
