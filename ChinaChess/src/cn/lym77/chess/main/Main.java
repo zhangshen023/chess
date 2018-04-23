@@ -106,8 +106,7 @@ public class Main {
                         public void loginSuccess() {
                             loginRegisterDlg.setLogin(true);
                             JOptionPane.showMessageDialog(null, "µÇÂ½³É¹¦");
-//                            loginRegisterDlg.setVisible(false);
-//                            game(1);
+
                         }
                     });
                     loginRegisterDlg.setLogin(true);
@@ -128,5 +127,10 @@ public class Main {
         }
         WindowUtil.center(loginRegisterDlg);
         loginRegisterDlg.setVisible(true);
+    }
+
+    public static void gameStart(){
+        loginRegisterDlg.setVisible(false);
+        game(1);
     }
 }

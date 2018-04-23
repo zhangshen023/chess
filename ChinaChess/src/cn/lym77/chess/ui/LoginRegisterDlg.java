@@ -11,16 +11,18 @@ import cn.lym77.msg.MsgOnLine;
 import cn.lym77.msg.OnlinePersonMsgListener;
 
 import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import static cn.lym77.chess.main.Main.gameStart;
+import static javax.swing.JOptionPane.OK_CANCEL_OPTION;
+import static javax.swing.JOptionPane.YES_OPTION;
+
 /**
  * @author __USER__
  */
-public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener, ListSelectionListener {
+public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener, MouseListener {
     private AtomicInteger count = new AtomicInteger(0);
 
     @Override
@@ -37,9 +39,39 @@ public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener
     }
 
     @Override
-    public void valueChanged(ListSelectionEvent e) {
+    public void mouseClicked(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
         String toUserName = jList.getSelectedValue();
-//        System.out.println(toUserName);
+        if (toUserName.equalsIgnoreCase(tfUserName.getText().trim())) {
+            return;
+        }
+        int option = JOptionPane.showConfirmDialog(null,
+                "是否要和" + toUserName + "对弈?", "邀请朋友对弈", OK_CANCEL_OPTION);
+        if (option == YES_OPTION) {
+            //去对弈
+            gameStart();
+        }
+
+
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
+
     }
 
 
@@ -86,35 +118,7 @@ public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener
 
         jList.setBounds(0, 0, 100, 417);
 
-        jList.addListSelectionListener(this);
-        jList.addMouseListener(new MouseListener() {
-
-            @Override
-            public void mouseClicked(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mousePressed(MouseEvent e) {
-                String toUserName = jList.getSelectedValue();
-                System.out.println(toUserName);
-            }
-
-            @Override
-            public void mouseReleased(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mouseEntered(MouseEvent e) {
-
-            }
-
-            @Override
-            public void mouseExited(MouseEvent e) {
-
-            }
-        });
+        jList.addMouseListener(this);
         JScrollPane jScrollPane = new JScrollPane(jList);
         jScrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane.setPreferredSize(new Dimension(100, 375));
