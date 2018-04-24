@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0b2aa53-9c43-414e-a670-86aa60c5cdb8" name="Default" comment="提交题">
+    <list default="true" id="d0b2aa53-9c43-414e-a670-86aa60c5cdb8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/LoginView.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/LoginView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg$LoginDlgListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginDlg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginFrame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/cn/lym77/chess/ui/LoginRegisterDlg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginDlg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginFrame.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,25 +43,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+            <state relative-caret-position="157">
+              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3280#3281#0" expanded="true" />
-                <element signature="e#3368#3369#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/game/GameView.java">
+      <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1861">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="149">
+              <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsgIo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRegisterDlg.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MsgLogin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,36 +116,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>center</find>
-      <find>temp</find>
-      <find>发送</find>
-      <find>btnSend</find>
-      <find>addComponent(</find>
-      <find>online</find>
-      <find>LoginRegDlgListener</find>
-      <find>userOnlinePanel</find>
-      <find>// 登陆</find>
-      <find>MsgOnLinePerson</find>
-      <find>msgThread</find>
-      <find>MsgListener</find>
-      <find>add</find>
-      <find>msgOnLine</find>
-      <find>MsgOnLine</find>
-      <find>LOGIN:</find>
-      <find>login</find>
-      <find>scroll</find>
-      <find>jList</find>
       <find>system.out</find>
       <find>tfUserName</find>
       <find>OK_CANCEL_OPTION</find>
       <find>setlogin</find>
       <find>s</find>
-      <find>msgLogin</find>
-      <find>msgIo</find>
       <find>islogin</find>
       <find>wood.gif</find>
       <find>main</find>
       <find>init</find>
+      <find>bgPanel.add(new GameView(null))</find>
+      <find>setvi</find>
+      <find>msgLogin</find>
+      <find>求和</find>
+      <find>MainView</find>
+      <find>MsgListener</find>
+      <find>game(0</find>
+      <find>onclick</find>
+      <find>step+</find>
+      <find>game(1</find>
+      <find>mainView</find>
+      <find>msgi</find>
+      <find>msgIo</find>
+      <find>read</find>
+      <find>Msg.read</find>
+      <find>step</find>
+      <find>onEat</find>
+      <find>login</find>
+      <find>JOptionPane.showMessageDialog</find>
+      <find>JOptionPane</find>
+      <find>ONLINE:</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,21 +176,21 @@
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgLogi.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgLogio.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgAdapter.java" />
-        <option value="$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginFrame.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/chess/game/GameView.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/util/WindowUtil.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/AwtControlDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/chess/ui/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/OnlinePersonMsgListener.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLinePerson.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgOnLine.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/msg/Msg.java" />
-        <option value="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java" />
         <option value="$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java" />
+        <option value="$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java" />
       </list>
     </option>
   </component>
@@ -233,7 +288,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="gamev&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/game/GameView.java&#10;loginv&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;game&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/game/GameView.java&#10;lo&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;ba&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/data/image/wood/ba.gif&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;tcp&#9;PSI&#9;JAVA://sun.rmi.transport.tcp.TCPChannel" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/Main.java&#10;reg&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/ui/LoginRegisterDlg.java&#10;gamev&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/game/GameView.java&#10;loginv&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;game&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/game/GameView.java&#10;lo&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/chess/main/LoginView.java&#10;ba&#9;FILE&#9;file:///Users/shen/Desktop/中国象棋2.1/客户端/源码/ChinaChess/src/cn/lym77/data/image/wood/ba.gif&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;tcp&#9;PSI&#9;JAVA://sun.rmi.transport.tcp.TCPChannel" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -492,7 +547,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524305996695</updated>
-      <workItem from="1524306000098" duration="42837000" />
+      <workItem from="1524306000098" duration="50940000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1524439202940</created>
@@ -522,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524440308184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交题">
+      <created>1524494143192</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524494143192</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42837000" />
+    <option name="totallyTimeSpent" value="50940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -553,7 +615,7 @@
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="0" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.36" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.25925925" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -568,7 +630,7 @@
       <window_info anchor="bottom" id="Run" order="9" weight="0.3674074" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -585,7 +647,7 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.9437037" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.36" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.34814814" />
       <window_info anchor="bottom" id="Statistic" order="4" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.3288889" />
@@ -634,13 +696,31 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java</url>
-          <line>65</line>
+          <url>file://$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java</url>
+          <line>86</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="59" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -857,32 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6386#6387#0" expanded="true" />
-            <element signature="e#6408#6409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3042">
-          <caret line="175" column="20" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="20" />
-          <folding>
-            <element signature="e#432#495#0" expanded="true" />
-            <element signature="e#6306#6307#0" expanded="true" />
-            <element signature="e#6328#6329#0" expanded="true" />
-            <element signature="e#6388#6389#0" expanded="true" />
-            <element signature="e#6410#6411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/javax/swing/GroupLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -905,18 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="27" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -934,39 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="311" column="11" selection-start-line="311" selection-start-column="11" selection-end-line="311" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="95" column="46" lean-forward="true" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,16 +1014,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/data/image/background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1019,36 +1022,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/data/image/bg.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2310">
-          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#14903#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1199#1353#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#5393#5555#0" expanded="true" />
-            <element signature="e#5554#5555#0" expanded="true" />
-            <element signature="e#6305#6468#0" expanded="true" />
-            <element signature="e#6467#6468#0" expanded="true" />
-            <element signature="e#6556#6557#0" expanded="true" />
-            <element signature="e#6609#6610#0" expanded="true" />
-            <element signature="e#11958#11959#0" expanded="true" />
-            <element signature="e#12017#12018#0" expanded="true" />
-            <element signature="e#12073#12074#0" expanded="true" />
-            <element signature="e#12132#12133#0" expanded="true" />
-            <element signature="e#12480#12481#0" expanded="true" />
-            <element signature="e#12509#12510#0" expanded="true" />
-            <element signature="e#12567#12568#0" expanded="true" />
-            <element signature="e#12588#12589#0" expanded="true" />
-            <element signature="e#14868#14869#0" expanded="true" />
-            <element signature="e#14898#14899#0" expanded="true" />
-            <element signature="e#15279#15287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/data/image/wood.gif">
       <provider selected="true" editor-type-id="images" />
@@ -1060,41 +1033,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/game/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="198">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#432#495#0" expanded="true" />
+            <element signature="e#6306#6307#0" expanded="true" />
+            <element signature="e#6328#6329#0" expanded="true" />
+            <element signature="e#6388#6389#0" expanded="true" />
+            <element signature="e#6410#6411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginDlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="198">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1011#1074#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/game/GameView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1861">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="139" column="12" lean-forward="true" selection-start-line="139" selection-start-column="12" selection-end-line="139" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6261#6262#0" expanded="true" />
+            <element signature="e#6301#6302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2353#2354#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/ui/LoginRegisterDlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="125" column="41" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
+        <state relative-caret-position="157">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3280#3281#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/chess/main/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lym77/msg/MsgIo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
           </folding>
         </state>
       </provider>

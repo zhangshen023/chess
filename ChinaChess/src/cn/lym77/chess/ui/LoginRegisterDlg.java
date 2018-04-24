@@ -16,6 +16,7 @@ import java.awt.event.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static cn.lym77.chess.main.Main.gameStart;
+import static cn.lym77.chess.main.Main.msgIo;
 import static javax.swing.JOptionPane.OK_CANCEL_OPTION;
 import static javax.swing.JOptionPane.YES_OPTION;
 
@@ -53,7 +54,7 @@ public class LoginRegisterDlg extends JDialog implements OnlinePersonMsgListener
                 "是否要和" + toUserName + "对弈?", "邀请朋友对弈", OK_CANCEL_OPTION);
         if (option == YES_OPTION) {
             //去对弈
-            gameStart();
+            gameStart(tfUserName.getText().trim(), toUserName, 0);
         }
 
 

@@ -56,6 +56,7 @@ public class MsgIo {
                     loginFailed();
                     return;
                 }
+
                 String data = null;
                 while ((data = Msg.read(socket)) != null) {
                     try {
@@ -65,6 +66,7 @@ public class MsgIo {
                         onReceiveErr(data);
 
                     }
+
                 }
             } catch (Exception e) {
             }

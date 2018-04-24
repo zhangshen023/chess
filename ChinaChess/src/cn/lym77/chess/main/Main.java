@@ -6,6 +6,7 @@ import cn.lym77.chess.ui.LoginRegisterDlg;
 import cn.lym77.data.MyImg;
 import cn.lym77.data.MyMp3;
 import cn.lym77.db.DbUtil;
+import cn.lym77.msg.Msg;
 import cn.lym77.msg.MsgAdapter;
 import cn.lym77.msg.MsgIo;
 import cn.lym77.msg.MsgLogin;
@@ -18,6 +19,7 @@ public class Main {
     public static LoginRegisterDlg loginRegisterDlg;
     public static MsgLogin msgLogin;
     public static LoginView mainView;
+    public static MsgIo msgIo;
 
     public static void readIp() {
         File file = new File("ip.txt");
@@ -77,7 +79,7 @@ public class Main {
 
     public static void game(int color) {
 
-        mainView = new LoginView(msgLogin, color);
+        mainView = new LoginView(msgIo, color);
         mainView.setVisible(true);
     }
 
@@ -129,8 +131,18 @@ public class Main {
         loginRegisterDlg.setVisible(true);
     }
 
-    public static void gameStart(){
+    public static void gameStart(String fromUserName, String toUserName, int color) {
+        msgIo = new MsgIo(fromUserName, toUserName);
         loginRegisterDlg.setVisible(false);
-        game(1);
+        game(color);
+        msgIo.login();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Msg msg = new Msg(fromUserName, toUserName, "INVITE:JOIN");
+        msgIo.sendMsg(msg);
+
     }
 }
